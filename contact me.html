@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="resume.png" type="image/x-icon" />
+    <!-- Free use icon with credit from Icongeek26
+      https://www.flaticon.com/authors/icongeek26-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script defer src="js\main.js"></script>
+  </head>
+
+  <body>
+    <header id="main-header">
+      <h1>Manraj Bhangra</h1>
+      <nav>
+        <a href="home.html">
+          <button id="Home">Home</button>
+        </a>
+        <a href="portfolio.html">
+          <button id="Portfolio">Portfolio</button>
+        </a>
+        <a href="contact me.html">
+          <button id="Contact">Contact Me</button>
+        </a>
+      </nav>
+    </header>
+
+    <form id="Contact-form">
+      <h2>Contact Me Here!</h2>
+      <input
+        id="Name"
+        type="text"
+        name="FirstName"
+        placeholder="First Name"
+        pattern="\w+"
+        required
+      />
+      <input
+        id="phone"
+        type="tel"
+        name="tel"
+        placeholder="Phone Number"
+        pattern="0?[0-9]{10}"
+        required
+      />
+
+      <input type="email" name="email" placeholder="Email" required />
+
+      <input type="password" name="Remail" placeholder="Confirm Email" required />
+
+      <br />
+      <br />
+
+      <p>Contact Preference:</p>
+      <label
+        ><input
+          type="radio"
+          name="ContactPref"
+          value="Text"
+          required="required"
+        />
+        Text
+      </label>
+      <label
+        ><input
+          type="radio"
+          name="ContactPref"
+          value="Email"
+          required="required"
+        />
+        Email
+      </label>
+
+      <br />
+      <br />
+
+      <label for="Start">Start Date:</label>
+      <input type="date" id="Start" name="Start" required />
+
+      <br />
+      <br />
+
+      <label for="End">End Date:</label>
+      <input type="date" id="End" name="End" required />
+
+      <br />
+      <br />
+
+      <label>
+        Describe the Project!<br /><br />
+        <textarea name="txtAr" rows="4" cols="40"> I would like </textarea>
+      </label>
+
+      <br />
+      <br />
+
+      <input id="submit" type="submit" />
+    </form>
+    <footer id="links">
+      <h4>My Links</h4>
+      <blockquote>
+        <p><a href="mailto:230098246@aston.ac.uk">230098246@aston.ac.uk</a></p>
+        <button id="github">
+          <img id="github-pic" src="Headerbild-Was-ist-GitHub-v2.png" />
+          <footer>Github</footer>
+        </button>
+        <button id="linkedin">
+          <img
+            id="linkedin-pic"
+            src="linkedin.bc4172bd-63f0-455a-9acd-5457f44e4473"
+          />
+          <footer>LinkedIn</footer>
+        </button>
+        <p>SUN: 230098246</p>
+      </blockquote>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,175 @@
+#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 0 auto;
+  background-color: black;
+  border: transparent;
+  border-bottom: 5px solid white;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+em {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+em {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: larger;
+}
+
+pre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+body {
+  background-color: #a9a9a9;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: transparent;
+  border-bottom: 1px solid white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Contact-Details {
+  padding-top: 10px;
+  height: 115px;
+  text-align: center;
+}
+
+#skills {
+  padding: 5px;
+  background-color: silver;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  align-tracks: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  color: white;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #a9a9a9;
+}
+
+tr:nth-of-type(even) {
+  background-color: silver;
+}
+
+#education {
+  background-color: #a9a9a9;
+}
+
+#College {
+  background-color: silver;
+  padding-bottom: 3px;
+}
+
+#University {
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+#Work-Experience {
+  background-color: silver;
+}
+
+#links {
+  background-color: black;
+  display: block;
+  padding: 5px;
+  justify-content: space-evenly;
+  border-top: 5px solid white;
+}
+
+#links {
+  color: white;
+}
+
+#links blockquote {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+ul {
+  text-align: left;
+}
+
+#github {
+  max-width: 100px;
+  height: auto;
+}
+
+#github-pic {
+  max-width: 75px;
+}
+
+#linkedin {
+  max-width: 100px;
+  height: auto;
+}
+
+#linkedin-pic {
+  max-width: 50px;
+}
+
+#Contact-form {
+  padding: 5px;
+}
+
+.project:nth-of-type(even) {
+  background-color: silver;
+}
+
+.project {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  display: inline-block;
+  height: 350px;
+  width: auto;
+  padding: auto;
+  position: relative;
+  vertical-align: middle;
+  align-items: center;
+  max-width: 500px;
+}

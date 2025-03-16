@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="resume.png" type="image/x-icon" />
+    <!-- Free use icon with credit from Icongeek26
+      https://www.flaticon.com/authors/icongeek26-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script defer src="js\main.js"></script>
+  </head>
+
+  <body>
+    <header id="main-header">
+      <h1>Manraj Bhangra</h1>
+      <nav>
+        <a href="home.html">
+          <button id="Home">Home</button>
+        </a>
+        <a href="portfolio.html">
+          <button id="Portfolio">Portfolio</button>
+        </a>
+        <a href="contact me.html">
+          <button id="Contact">Contact Me</button>
+        </a>
+      </nav>
+    </header>
+
+    <section id="projects">
+      <div class="project">
+        <h2>Python</h2>
+        <section id="pygame">
+          <h3>Python Game</h3>
+          <p>
+            One of my largest and most creative projects was one where I created
+            a game within Python with help of the pygame. For the game I used
+            OOP to create classes for the player and enemy characters. These
+            classes would be used within the main game code to be displayed and
+            used. The game could be played in both single and two player. When
+            playing in two a client-server model was used and the server was
+            made by myself. Below you can small portions of the code and an
+            example video of the game playing.
+          </p>
+          <img
+            class="image"
+            src="Portfolio Screenshots\Python Game.png"
+            alt="Game Code"
+          />
+          <img
+            class="image"
+            src="Portfolio Screenshots\Python OOP.png"
+            alt="OOP Code"
+          />
+          <img
+            class="image"
+            src="Portfolio Screenshots\Python Server.png"
+            alt="Server Code"
+          />
+          <video class="image" controls>
+            <source src="Portfolio Screenshots\2024-02-17 14-08-02.mkv" />
+          </video>
+        </section>
+        <section id="Harshad">
+          <br />
+          <h3>Harshad numbers</h3>
+          <p>
+            A more basic algorithm I created within python was one to find a
+            Harshad numbers, a number divisible by the sum of its digits. The
+            function would take a number being x and find the xth Harshad
+            number.
+          </p>
+          <img
+            class="image"
+            src="Portfolio Screenshots\Harshad code.png"
+            alt="Harshad code"
+          />
+          <img
+            id="image small"
+            src="Portfolio Screenshots\Harshad result.png"
+            alt="Harshad result"
+          />
+        </section>
+      </div>
+      <div class="project">
+        <h2>Java</h2>
+        <section id="Car Race">
+          <h3>Car Race</h3>
+          <p>
+            One project which I created within Java was a car race. I created
+            classes for the car and the track and used these to simulate a race
+            between 5 cars. You can reset the race using the s key and the
+            scores would be saved on top the cars. The colours of the cars would
+            be random every time.
+          </p>
+          <img
+            src="Portfolio Screenshots\Race.png"
+            alt="Main race code"
+            class="image"
+          />
+          <img
+            src="Portfolio Screenshots\Car.png"
+            alt="Car class code"
+            class="image"
+          />
+          <img
+            src="Portfolio Screenshots\RaceTrack.png"
+            alt="Racetrack class code"
+            class="image"
+          />
+          <video class="image" controls>
+            <source src="Portfolio Screenshots\Car Race.mp4" type="video/mp4" />
+          </video>
+        </section>
+        <section id="hunt">
+          <br />
+          <h3>Foxes vs Rabbits</h3>
+          <p>
+            This Java project was not entirely done by my but instead I was
+            given starting code which I needed to fix and make work.
+            Essentially, this code is a simulation of a field containing foxes
+            and rabbits where both animals can breed and foxes can hunt the
+            rabbits. However, at all times there must be at least two rabbits so
+            they do not all die. Below are some screenshots of the code and
+            random result.
+          </p>
+          <img
+            src="Portfolio Screenshots\GridCell.png"
+            alt="Class for a single cell in the grid"
+            class="image"
+          />
+          <img
+            src="Portfolio Screenshots\ActorInterface.png"
+            alt="Interface for an Actor"
+            class="image"
+          />
+          <img
+            src="Portfolio Screenshots\HuntProbability.png"
+            alt="Functions showing all rabbits cannot die"
+            class="image"
+          />
+
+          <img
+            src="Portfolio Screenshots\HuntResult.png"
+            alt="Results of running code"
+            class="image"
+          />
+        </section>
+      </div>
+      <div class="project">
+        <h2>SQL</h2>
+        <h3>Shop Database</h3>
+        <p>
+          Within pycharm I imported SQL and used it to create a database for a
+          shop. The database contains tables for orders, customers, products and
+          profits.
+        </p>
+        <img
+          src="Portfolio Screenshots\SQL code.png"
+          alt="Code for the SQL"
+          class="image"
+        />
+        <img
+          src="Portfolio Screenshots\Database inputs.png"
+          alt="Changing database contents"
+          class="image"
+        />
+        <img
+          src="Portfolio Screenshots\Database before.png"
+          alt="Database before edit"
+          class="image"
+        />
+        <img
+          src="Portfolio Screenshots\Database after.png"
+          alt="Database after edit"
+          class="image"
+        />
+      </div>
+      <div class="project">
+        <h2>HTML, CSS and JavaScript</h2>
+        <h3>Aston Fitness Website</h3>
+        <p>
+          Using all three languages of HTML, SCC and JavaScript I created a
+          website called 'Aston Fitness'. The website featured two pages, one
+          page for the home and one for the signing up. HTML was used to create
+          the pages and give them content whilst CSS was used to create a
+          stylesheet for the page. JavaScript was used for validation when
+          creating a password.
+        </p>
+        <img
+          src="Portfolio Screenshots\HTML Code.png"
+          alt="HTML code"
+          class="image"
+        />
+        <img
+          src="Portfolio Screenshots\CSS Code.png"
+          alt="CSS code"
+          class="image"
+        />
+        <img
+          src="Portfolio Screenshots\JS Code.png"
+          alt="JS code"
+          class="image"
+        />
+        <video class="image" controls>
+          <source src="Portfolio Screenshots\2024-02-18 11-36-19.mkv" />
+        </video>
+      </div>
+      <div class="project">
+        <h2>Assembly</h2>
+        <p>
+          Within Assembly I have not completed any large projects but have
+          instead completed smaller tasks such as the two below. The first
+          screenshot shows a program that will cycle through the first ten
+          values of the Fibonacci sequence in register R12. The second
+          screenshot shows a program that will cycle through the first ten
+          triangular numbers in register R12.
+        </p>
+        <img
+          src="Portfolio Screenshots\Assembly Fibonacci.png"
+          alt="Fibonacci sequence in Assembly code"
+          class="image"
+        />
+        <img
+          src="Portfolio Screenshots\Assembly tri.png"
+          alt="Triangular numbers in Assembly code"
+          class="image"
+        />
+      </div>
+    </section>
+    <footer id="links">
+      <h4>My Links</h4>
+      <blockquote>
+        <p><a href="mailto:230098246@aston.ac.uk">230098246@aston.ac.uk</a></p>
+        <button id="github">
+          <img id="github-pic" src="Headerbild-Was-ist-GitHub-v2.png" />
+          <footer>Github</footer>
+        </button>
+        <button id="linkedin">
+          <img
+            id="linkedin-pic"
+            src="linkedin.bc4172bd-63f0-455a-9acd-5457f44e4473"
+          />
+          <footer>LinkedIn</footer>
+        </button>
+        <p>SUN: 230098246</p>
+      </blockquote>
+    </footer>
+  </body>
+</html>
